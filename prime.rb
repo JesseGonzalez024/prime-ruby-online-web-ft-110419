@@ -1,5 +1,3 @@
-
-
 def prime?(integer)
   if integer <= 1
         false
@@ -9,11 +7,5 @@ def prime?(integer)
          (2..integer/2).none? { |i| integer % i == 0}
      end
 end  
-  
-  
-  
-  
-  
-  
 #Prime.prime?(integer)
   
